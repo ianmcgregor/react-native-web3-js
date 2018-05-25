@@ -1,0 +1,24 @@
+{
+  "name": "react-native-web3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web3.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react-native": "^4.0.0",
+    "create-hash": "^1.2.0",
+    "eslint": "^4.19.1",
+    "jest": "^23.0.0",
+    "react-native": "^0.55.4",
+    "web3": "^1.0.0-beta.34",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
+  }
+}
