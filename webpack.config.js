@@ -18,12 +18,6 @@ module.exports = {
         'react-native'
     ],
 
-    resolve: {
-        alias: {
-            crypto: path.resolve(__dirname, 'src/crypto.js')
-        }
-    },
-
     module: {
         rules: [
             {
@@ -39,8 +33,4 @@ module.exports = {
             }
         ]
     },
-
-    plugins: [
-        new webpack.IgnorePlugin(/ed25519/)
-    ]
 };
