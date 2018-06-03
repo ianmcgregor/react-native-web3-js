@@ -8,4 +8,5 @@ global.atob = function(b64Encoded) {
     return new Buffer(b64Encoded, 'base64').toString('binary');
 };
 
-module.exports = require('web3');
+export const Web3EthPersonal = require('web3-eth-personal');
+export default require('web3');
